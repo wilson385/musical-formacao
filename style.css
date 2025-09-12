@@ -190,6 +190,7 @@ section p {
     flex-direction: column;
     margin-top: 5rem;
     border-radius: 10px;
+    padding: 20px;
 }
 .sobre h2 {
     font-size: 40px;
@@ -200,6 +201,7 @@ section p {
 .sobre p {
     text-align: center;
     padding: 10px;
+
 }
 
 .sobre p em {
