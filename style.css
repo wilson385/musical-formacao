@@ -14,12 +14,10 @@ body {
 .header-primario {
     background-color: #1e3a8a ;
     display: flex;
-    
 }
 img {
     width: 160px;
     padding: 5px;
-    
 }
 
 h1  {
@@ -29,7 +27,6 @@ h1  {
     font-size: 40px;
     font-family: "Prociono", serif;
     padding-bottom: 5px;
-    
 }
 
 
@@ -38,7 +35,6 @@ div {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-
 }
 
 header nav {
@@ -47,10 +43,7 @@ header nav {
     margin-left: 40rem;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    
-   
-    
+    margin: auto; 
 }
 
 a {
@@ -70,7 +63,6 @@ em:hover {
 .header-secundario {
     background-color: #1A202C;
     height: 300px;
-
 }
 
 .header-secundario {
@@ -79,7 +71,6 @@ em:hover {
     justify-content: center;
     text-align: center;
     gap: 10px;
-
 }
 
 .header-secundario h2 {
@@ -90,7 +81,6 @@ em:hover {
 .header-secundario h3 {
     font-size: 25px;
     padding: 5px;
-
 }
 
 .nossos-cursos {
@@ -98,18 +88,25 @@ em:hover {
     text-align: center;
     margin-top: 60px;
      font-size: 45px;
-
 }
 
 
+main section div {
+    background-color: #334155;
+    padding: 4rem;
+    border-radius: 10px;
+} 
 
+main section div h2 {
+    font-family: "Patrick Hand", cursive;
+    font-size: 45px;
+}
 
 .sessao-1 {
     display: flex;
     gap: 10rem;
     margin-top: 50px;
     padding: 30px;
-
 }
 
 .sessao-2 {
@@ -117,7 +114,6 @@ em:hover {
     gap: 10rem;
     margin-top: 50px;
      padding: 30px;
-
 }
 
 .sessao-3 {
@@ -125,7 +121,6 @@ em:hover {
     gap: 10rem;
     margin-top: 50px;
      padding: 30px;
-
 }
 
 .sessao-4 {
@@ -133,11 +128,7 @@ em:hover {
     gap: 10rem;
     margin-top: 50px;
      padding: 30px;
-
 }
-
-
-
 
 main section {
     height: 30rem;
@@ -149,31 +140,13 @@ main section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-   
-    
-    
-   
 }
 
-main section div {
-    background-color: #334155;
-    padding: 4rem;
-    border-radius: 10px;
-    
-
-} 
-
-main section div h2 {
-    font-family: "Patrick Hand", cursive;
-    font-size: 45px;
-}
-
-section h3 {
+main section h3 {
     color: #1E3A8A;
     text-align: center;
     font-size: 25px;
     padding: 5px;
-
 }
 
 section p {
@@ -181,7 +154,6 @@ section p {
     text-align: center;
     font-size: 23px;
     padding: 5px;
-
 }
 
 .sobre {
@@ -201,18 +173,15 @@ section p {
 .sobre p {
     text-align: center;
     padding: 10px;
-
 }
 
 .sobre p em {
     font-size: 20px;
-    transition: all 0.5s;
-    
+    transition: all 0.5s; 
 }
 
 .sobre em:hover {
     color: rgb(224, 212, 195);
-
 }
 
 .informacao-contato {
@@ -232,7 +201,6 @@ section p {
     margin-top: 2rem;
     display: flex;
     gap: 3rem;
-
 }
 
 ion-icon {
@@ -244,15 +212,12 @@ ion-icon {
     color: #168f12;
     font-size: 25px;
     transition: all 0.5s;
-
 }
 
 .redes-social .logo-inst {
     color: #741e8a;
     font-size: 25px;
     transition: all 0.5s;
-    
-    
 }
 
 .redes-social .logo-gps {
@@ -264,13 +229,11 @@ ion-icon {
 .logo-zapp:hover {
     color: #0c5709;
     background-color: rgba(154, 59, 192, 0.178);
-
 }
 
 .logo-inst:hover {
     color: #270536;
     background-color: rgba(154, 59, 192, 0.178);
-
 }
 
 .logo-gps:hover {
@@ -278,25 +241,19 @@ ion-icon {
     background-color: rgba(154, 59, 192, 0.178);
 }
 
-
-
 footer {
     background-color: #213A81;
     margin-top: 8rem;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-
 }
-
-
 
 @media (max-width: 860px) {
 
     h1 {
         padding: 2px;
     }
-
 
     img {
         /* centralizando img no meio do container */
@@ -320,10 +277,7 @@ footer {
         padding: 10px;
         margin: auto;
         display: flex;
-        
-        
     }
-
 
     .header-secundario h2 {
         padding: 5px;
@@ -337,7 +291,6 @@ footer {
         height: auto;
     }
 
-
     .sessao-1 {
         flex-direction: column;
         gap: 2rem;
@@ -346,7 +299,6 @@ footer {
       .sessao-2 {
         flex-direction: column;
         gap: 2rem;
-        
     }
 
       .sessao-3 {
@@ -358,14 +310,4 @@ footer {
         flex-direction: column;
         gap: 2rem;
     }
-
-    /* main section {
-        width: 20rem;
-
-    } */
-
-
-
-
-  
 }
