@@ -260,6 +260,7 @@ footer {
         margin: 0 auto 0;
         padding-right: 13px;
         margin-top: 17px;
+        width: 200px;
     }
     .header-primario {
         /* posicionando em coluna */
