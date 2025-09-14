@@ -149,6 +149,18 @@ main section h3 {
     padding: 5px;
 }
 
+.h3-guitarra {
+    color: #1E3A8A;
+}
+
+.h3-piano {
+    color: #1E3A8A;
+}
+
+.h3-violino {
+    color: #1E3A8A;
+}
+
 section p {
     color: #374151;
     text-align: center;
