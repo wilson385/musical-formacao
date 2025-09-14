@@ -142,24 +142,13 @@ main section {
     gap: 1rem;
 }
 
-main section h3 {
+main div section h3 {
     color: #1E3A8A;
     text-align: center;
     font-size: 25px;
     padding: 5px;
 }
 
-.h3-guitarra {
-    color: #1E3A8A;
-}
-
-.h3-piano {
-    color: #1E3A8A;
-}
-
-.h3-violino {
-    color: #1E3A8A;
-}
 
 section p {
     color: #374151;
