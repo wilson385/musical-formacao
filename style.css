@@ -142,7 +142,7 @@ main section {
     gap: 1rem;
 }
 
-h3 {
+h3[style]{
     /* !important serve para forçar que aquela regra 
     seja aplicada,
      mesmo que existam outras regras competindo. */
