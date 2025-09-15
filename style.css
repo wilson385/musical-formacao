@@ -143,7 +143,6 @@ main section {
 }
 
 h3 {
-  color: #1E3A8A !important;
     /* !important serve para forçar que aquela regra 
     seja aplicada,
      mesmo que existam outras regras competindo. */
