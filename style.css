@@ -146,7 +146,7 @@ h3[style]{
     /* !important serve para forçar que aquela regra 
     seja aplicada,
      mesmo que existam outras regras competindo. */
-    color: #1E3A8A !important;
+    color: #1E3A8A;
     text-align: center;
     font-size: 25px;
     padding: 5px;
