@@ -142,7 +142,11 @@ main section {
     gap: 1rem;
 }
 
-main div section h3 {
+.sessao-1 h3,
+.sessao-2 h3,
+.sessao-3 h3,
+.sessao-4 h3 {
+  color: #1E3A8A !important;
     /* !important serve para forçar que aquela regra 
     seja aplicada,
      mesmo que existam outras regras competindo. */
