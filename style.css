@@ -254,7 +254,51 @@ footer {
     border-radius: 10px;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 480px) {
+    
+    header nav a {
+        font-size: 1rem;
+    }
+
+    .header-secundario h2 {
+        font-size: 2.0rem;
+    }
+
+    .header-secundario h3 {
+        font-size: 1.4rem;
+    }
+
+    .nossos-cursos {
+        font-size: 2rem;
+    }
+
+    main section div h2 {
+        font-size: 2rem;
+    }
+
+      main section h3 {
+        font-size: 1.7rem;
+    }
+
+    main section p {
+        font-size: 1.2rem;
+    }
+
+    .sobre h2 {
+        font-size: 2rem;
+    }
+    .sobre p em {
+        font-size: 1.2rem;
+    }
+
+    .informacao-contato p {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+@media (max-width: 668px) {
 
     h1 {
         padding: 2px;
