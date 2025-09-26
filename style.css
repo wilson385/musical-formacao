@@ -24,7 +24,7 @@ h1  {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 2rem;
     font-family: "Prociono", serif;
     padding-bottom: 5px;
 }
@@ -48,7 +48,7 @@ header nav {
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.10rem;
     font-weight: bolder;
 }
 
@@ -75,11 +75,11 @@ em:hover {
 
 .header-secundario h2 {
     font-family: "Patrick Hand", cursive;
-    font-size: 45px;
+    font-size: 2.81rem;
 }
 
 .header-secundario h3 {
-    font-size: 25px;
+    font-size: 1.56rem;
     padding: 5px;
 }
 
@@ -87,9 +87,8 @@ em:hover {
     color: #0a2a6b;
     text-align: center;
     margin-top: 60px;
-     font-size: 45px;
+     font-size: 2.81rem;
 }
-
 
 main section div {
     background-color: #334155;
@@ -99,7 +98,7 @@ main section div {
 
 main section div h2 {
     font-family: "Patrick Hand", cursive;
-    font-size: 45px;
+    font-size: 2.81rem;
 }
 
 .sessao-1 {
@@ -132,15 +131,16 @@ main section div h2 {
 
 main section {
     height: 30rem;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    width: 100%;
-    max-width: 588px;
     padding: 25px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+     width: 100%;
+    max-width: 588px;
 }
+
 
 h3{
     /* !important serve para forçar que aquela regra 
@@ -148,15 +148,16 @@ h3{
      mesmo que existam outras regras competindo. */
     color: #1E3A8A;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56rem;
     padding: 5px;
+    
 }
 
 
 section p {
     color: #374151;
     text-align: center;
-    font-size: 23px;
+    font-size: 1.44rem;
     padding: 5px;
 }
 
@@ -169,7 +170,7 @@ section p {
     padding: 20px;
 }
 .sobre h2 {
-    font-size: 40px;
+    font-size: 42.50rem;
     font-family: "Patrick Hand", cursive;
     text-align: center;
 }
@@ -180,7 +181,7 @@ section p {
 }
 
 .sobre p em {
-    font-size: 20px;
+    font-size: 1.25rem;
     transition: all 0.5s; 
 }
 
@@ -197,7 +198,7 @@ section p {
     color: #2058c7;
     text-align: center;
     margin-top: 3.5rem;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 10px;
 }
 
@@ -214,19 +215,19 @@ ion-icon {
 
 .redes-social .logo-zapp {
     color: #168f12;
-    font-size: 25px;
+    font-size: 1.56rem;
     transition: all 0.5s;
 }
 
 .redes-social .logo-inst {
     color: #741e8a;
-    font-size: 25px;
+    font-size: 1.56rem;
     transition: all 0.5s;
 }
 
 .redes-social .logo-gps {
     color: red;
-    font-size: 25px;
+    font-size: 1.56rem;
     transition: all 0.5s;
 }
 
@@ -294,7 +295,7 @@ footer {
     main section {
         height: auto;
     }
-
+   
     .sessao-1 {
         flex-direction: column;
         gap: 2rem;
