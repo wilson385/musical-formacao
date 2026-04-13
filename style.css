@@ -41,7 +41,7 @@ body {
 .header-primario div {
     display: flex;
     flex-direction: column;
-    margin-top: 140px;
+    margin-top: 150px;
     gap: 1rem;
     align-items: center; 
     width: 100%;
@@ -51,7 +51,7 @@ body {
 .header-primario div h1 {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;    
+    font-size: 22px;    
     text-align: center;    
 }
 
@@ -63,7 +63,7 @@ body {
 .header-primario div .p2 {
     font-weight: bolder;
     text-align: center;
-      font-size: 19px;    
+      font-size: 17px;    
 }
 
 .header-primario div a {
@@ -265,8 +265,8 @@ main .alunos-apresentacao h2 {
 
 main .alunos-apresentacao  iframe {
     width: 100%;
-    max-width: 600px;
-    height: 400px;
+    max-width: 400px;
+    height: 282px;
     margin-top: 30px;
     border-radius: 14px;
     border: #1b394b solid 1px;
