@@ -41,7 +41,7 @@ body {
 .header-primario div {
     display: flex;
     flex-direction: column;
-    margin-top: 132px;
+    margin-top: 115px;
     gap: 1rem;
     align-items: center; 
 }
