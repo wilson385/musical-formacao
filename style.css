@@ -48,13 +48,14 @@ body {
 
 .header-primario div h1 {
     font-size: 23px;
-    text-align: center;   
+    text-align: center;  
+    font-family: fantasy; 
      
 }
 
 .header-primario div .p1 {
      text-align: center;
-     font-size: 14px;
+     font-size: 15px;
      font-family: "Patrick Hand", cursive;
      line-height: 16px;
 
