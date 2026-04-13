@@ -236,6 +236,8 @@ main .sessao-cursos ul a img{
 main .sessao-cursos p {
     text-align: center;
     padding: 10px;
+    line-height: 22px;
+    font-size: 14px;
 }
 
 main .alunos-apresentacao {
