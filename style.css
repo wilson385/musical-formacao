@@ -237,7 +237,6 @@ main .sessao-cursos ul a img{
 main .sessao-cursos p {
     text-align: center;
     padding: 10px;
-    font-size: 22px;
 }
 
 main .alunos-apresentacao {
@@ -285,7 +284,6 @@ main .venhaNosConhecer h3 {
 }
 
 main .venhaNosConhecer p {
-  font-size: 23px;
     text-align: center;
      color: #000000;
     padding: 8px;
@@ -373,7 +371,4 @@ footer {
     text-align: center;
 }
 
-footer p {
-    font-size: 18px;
-}
 
