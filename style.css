@@ -47,7 +47,7 @@ body {
 }
 
 .header-primario div h1 {
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;   
      
 }
@@ -74,6 +74,7 @@ body {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    padding: 20px;
 }
 
 .header-primario div a button {
