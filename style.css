@@ -99,10 +99,10 @@ main .sessao-inicial {
 }
 
 main .sessao-inicial h2 {
-    font-size: 2.2rem;
     text-align: center;
      color: #002D5E;
      font-family: monosp/ace; 
+     font-size: 2.2rem;
     padding: 10px;
     margin-top: 10px;
 }
@@ -241,9 +241,9 @@ main .sessao-cursos p {
 }
 
 main .alunos-apresentacao {
-    margin-top: 20px;
+    background: url(assets/azul3.jpg) no-repeat center center/cover;
     height: auto;
-    padding: 10px;
+    padding: 29px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,7 +252,7 @@ main .alunos-apresentacao {
 main .alunos-apresentacao h2 {
     font-size: 2.2rem;
     text-align: center;
-    color: #002D5E;
+   color: #fbff00;
     font-family: "Patrick Hand", cursive;
     padding: 10px;
     margin-top: 10px;
@@ -276,19 +276,25 @@ main .venhaNosConhecer {
 }
 
 main .venhaNosConhecer h3 {
-    font-size: 2.2rem;
-   font-family: "Patrick Hand", cursive;
+    color: #002D5E;
+     font-family: monosp/ace; 
+        font-size: 24px;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    color: #002D5E;
 }
 
 main .venhaNosConhecer p {
     text-align: center;
      color: #000000;
     padding: 8px;
+    line-height: 20px;
+    font-size: 15px;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+
 
 
 main .venhaNosConhecer .agendar {
