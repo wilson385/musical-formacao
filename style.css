@@ -7,8 +7,7 @@
 } 
 
 body {
-    /* background: #b0cbff; */
-    /* background: url(assets/azulClaro2.jpg) no-repeat center center/cover; */
+    background-color: white;
 }
 
 .header-primario {
@@ -152,6 +151,8 @@ main .sessao-NaoAprendaSozinho h2 {
 
 main .sessao-NaoAprendaSozinho p {
     text-align: center;
+    line-height: 20px;
+    font-size: 15px;
 }
 
 main .sessao-cursos {
