@@ -1,211 +1,351 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Prociono&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: white;
-}
+} 
 
 body {
-    background: #F2F3F5;
+    /* background: #b0cbff; */
+    background: url(assets/azulClaro2.jpg) no-repeat center center/cover;
 }
 
 .header-primario {
-    background-color: #1e3a8a ;
-    display: flex;
-}
-img {
-    width: 200px;
-    padding: 5px;
-}
-
-h1  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-family: "Prociono", serif;
-    padding-bottom: 5px;
-}
-
-
-div {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-}
-
-header nav {
-    display: flex;
-    gap: 60px;
-    margin-left: 40rem;
-    justify-content: center;
-    align-items: center;
-    margin: auto; 
-}
-
-a {
-    text-decoration: none;
-    font-size: 1.10rem;
-    font-weight: bolder;
-}
-
-em {
-    transition: all 0.5s;
-}
-
-em:hover {
-    color: rgb(65, 177, 91);
-}
-
-.header-secundario {
-    background-color: #1A202C;
-    height: 300px;
-}
-
-.header-secundario {
+    background: url('assets/azul6.jpg') no-repeat center center/cover;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 10px;
+    align-items: center;
+    position: relative; /* MUITO IMPORTANTE */
+    overflow: hidden;
+    padding: 40px;
 }
 
-.header-secundario h2 {
-    font-family: "Patrick Hand", cursive;
-    font-size: 2.81rem;
+.guitarra2{
+    position: absolute;
+    top: 16%;
+    left: 51.5%;
+    transform: translate(-50%, -50%); /* centraliza */
+    width: 100%; /* ajusta tamanho */
+    opacity: 0.40; /* quase invisível */    
+    z-index: 0; /* fica atrás de tudo */
+    height: 65%;
 }
 
-.header-secundario h3 {
-    font-size: 1.56rem;
-    padding: 5px;
+.header-primario  .logo {
+        width: 200px;
+        margin-top: -70px;
 }
 
-.nossos-cursos {
-    color: #0a2a6b;
-    text-align: center;
-    margin-top: 60px;
-     font-size: 2.81rem;
-}
-
-main section div {
-    background-color: #334155;
-    padding: 4rem;
-    border-radius: 10px;
-} 
-
-main section div h2 {
-    font-family: "Patrick Hand", cursive;
-    font-size: 2.81rem;
-}
-
-.sessao-1 {
+.header-primario div {
     display: flex;
-    gap: 10rem;
-    margin-top: 50px;
+    flex-direction: column;
+    margin-top: 140px;
+    gap: 1rem;
+    align-items: center; 
+    width: 100%;
+     max-width: 1150px;
+}
+
+.header-primario div h1 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;    
+    text-align: center;    
+}
+
+.header-primario div .p1 {
+    font-size: 19px;
+     text-align: center;
+}
+
+.header-primario div .p2 {
+    font-weight: bolder;
+    text-align: center;
+      font-size: 19px;    
+}
+
+.header-primario div a {
+    background-color: #ffbb00;
+    border-radius: 10px;
+    transition: all 0.5s;
+    width: 290px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.header-primario div a button {
+    font-size: 1.10rem;
+    font-weight: bolder;
+    font-family: monospace;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.header-primario div a:hover {
+    background-color: #d9ff00;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main .sessao-inicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .sessao-inicial h2 {
+    font-size: 2.2rem;
+    text-align: center;
+     color: #002D5E;
+    font-family: "Patrick Hand", cursive;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main .sessao-inicial p {
+    font-size: 21px;
+    text-align: center;
+    color: #000000;
+    padding: 8px;
+    width: 100%;
+    max-width: 1400px;
+}
+main .sessao-inicial p .strong-1 {
+    color: #000000;
+    font-size: 1.25rem;
+}
+
+main .sessao-NaoAprendaSozinho iframe {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+     margin-top: 30px;
+     border-radius: 14px;
+     border: #1b204b solid 1px;
+}
+
+main .sessao-NaoAprendaSozinho {
+    background: url(assets/azul5.jpg) no-repeat center center/cover;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 36px;
+}
+
+main .sessao-NaoAprendaSozinho h2 {
+    font-size: 1.8rem;
+    color: #fbff00;
+    text-align: center;
+    padding: 10px;
+    font-family: "Patrick Hand", cursive;
+}
+
+main .sessao-NaoAprendaSozinho p {
+    font-size: 19px;
+    text-align: center;
+}
+
+main .sessao-cursos {
+    background: url(assets/azul3.jpg) no-repeat center center/cover;
+    height: auto;
+    position: relative; /* MUITO IMPORTANTE */
+    overflow: hidden;
     padding: 30px;
 }
 
-.sessao-2 {
-    display: flex;
-    gap: 10rem;
-    margin-top: 50px;
-     padding: 30px;
+main .sessao-cursos .baterista {
+    position: absolute;
+    top: 16%;
+    left: 51.5%;
+    transform: translate(-50%, -50%); /* centraliza */
+    width: 100%; /* ajusta tamanho */
+    opacity: 0.04; /* quase invisível */
+    z-index: 0; /* fica atrás de tudo */
+    height: 100%;
+    pointer-events: none;
 }
 
-.sessao-3 {
-    display: flex;
-    gap: 10rem;
-    margin-top: 50px;
-     padding: 30px;
+main .sessao-cursos .baterista2 {
+    position: absolute;
+    top: 69%;
+    left: 51.5%;
+    transform: translate(-50%, -50%); /* centraliza */
+    width: 100%; /* ajusta tamanho */
+    opacity: 0.04; /* quase invisível */
+    z-index: 0; /* fica atrás de tudo */
+    height: 100%;
+    pointer-events: none;
 }
 
-.sessao-4 {
-    display: flex;
-    gap: 10rem;
-    margin-top: 50px;
-     padding: 30px;
-}
-
-main section {
-    height: 30rem;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-     width: 100%;
-    max-width: 588px;
-}
-
-
-h3{
-    /* !important serve para forçar que aquela regra 
-    seja aplicada,
-     mesmo que existam outras regras competindo. */
-    color: #1E3A8A;
-    text-align: center;
-    font-size: 1.56rem;
-    padding: 5px;
-    
-}
-
-
-section p {
-    color: #374151;
-    text-align: center;
-    font-size: 1.44rem;
-    padding: 5px;
-}
-
-.sobre {
-    background-color: #213A81;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
-    border-radius: 10px;
-    padding: 20px;
-}
-.sobre h2 {
+main .sessao-cursos h2 {
     font-size: 2.5rem;
     font-family: "Patrick Hand", cursive;
     text-align: center;
-}
-
-.sobre p {
-    text-align: center;
     padding: 10px;
+    margin-top: 10px;
+    color: #fbff00;
 }
 
-.sobre p em {
-    font-size: 1.25rem;
-    transition: all 0.5s; 
-}
-
-.sobre em:hover {
-    color: rgb(224, 212, 195);
-}
-
-.informacao-contato {
+main .sessao-cursos ul {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 20px;    
+}
+main .sessao-cursos ul a {
+    background-color: #2f4685;
+    list-style: none;
+    width: 60%;
+    height:130px;
+    padding: 22px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: #01b6b6 solid 2px;
+    font-family: 'Courier New', Courier, monospace;
+    transition:  0.4s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1;
 }
 
-.informacao-contato p  {
-    color: #2058c7;
+main .sessao-cursos ul a:hover {
+    background-color: #223569;
+    border: #01b6b6 solid 4px;
+}
+
+main .sessao-cursos ul a img{
+    width: 100px;
+    height: 50px;
+    margin-top: -10px;
+}
+
+main .sessao-cursos p {
     text-align: center;
-    margin-top: 3.5rem;
-    font-size: 1.25rem;
+    padding: 10px;
+    font-size: 22px;
+}
+
+main .alunos-apresentacao {
+    margin-top: 20px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .alunos-apresentacao h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #002D5E;
+    font-family: "Patrick Hand", cursive;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main .alunos-apresentacao  iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 14px;
+    border: #1b394b solid 1px;
+}
+
+main .venhaNosConhecer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+main .venhaNosConhecer h3 {
+    font-size: 2.2rem;
+   font-family: "Patrick Hand", cursive;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    color: #002D5E;
+}
+
+main .venhaNosConhecer p {
+  font-size: 23px;
+    text-align: center;
+     color: #000000;
+    padding: 8px;
+}
+
+
+main .venhaNosConhecer .agendar {
+    list-style: none;
+    background-color: #071e46;
+    border-radius: 10px;
+    transition: all 0.5s;
+    width: 290px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 6px;
     padding: 10px;
 }
 
-.redes-social {
-    margin-top: 2rem;
+main .venhaNosConhecer .agendar:hover {
+    background-color: #00091a;
+}
+
+main .venhaNosConhecer .agendar button {
+    border: none;
+    background-color: transparent;
+    color: #E0E0E0;
+    font-size: 1.10rem;
+    font-weight: bolder;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+main .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+main .mapa iframe {
+    width: 95%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.redes-sociais {
     display: flex;
     gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;   
 }
 
 ion-icon {
@@ -213,150 +353,32 @@ ion-icon {
     border-radius: 14px;
 }
 
-.redes-social .logo-zapp {
-    color: #168f12;
+.redes-sociais .logo-zapp {
+    color: #023500;
     font-size: 1.56rem;
     transition: all 0.5s;
 }
 
-.redes-social .logo-inst {
-    color: #741e8a;
+.redes-sociais .logo-inst {
+    color: #160053;
     font-size: 1.56rem;
     transition: all 0.5s;
 }
 
-.redes-social .logo-gps {
-    color: red;
+.redes-sociais .logo-gps {
+    color: rgb(100, 1, 1);
     font-size: 1.56rem;
     transition: all 0.5s;
-}
-
-.logo-zapp:hover {
-    color: #0c5709;
-    background-color: rgba(154, 59, 192, 0.178);
-}
-
-.logo-inst:hover {
-    color: #270536;
-    background-color: rgba(154, 59, 192, 0.178);
-}
-
-.logo-gps:hover {
-    color: rgb(131, 11, 11);
-    background-color: rgba(154, 59, 192, 0.178);
 }
 
 footer {
-    background-color: #213A81;
+    background-color: #091941;
     margin-top: 8rem;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
 }
-/* dispositivos moveis pequenos e médios */
-@media (max-width: 700px) {
-    
-    header nav a {
-        font-size: 1rem;
-    }
 
-    .header-secundario h2 {
-        font-size: 2.0rem;
-    }
-
-    .header-secundario h3 {
-        font-size: 1.4rem;
-    }
-
-    .nossos-cursos {
-        font-size: 2rem;
-    }
-
-    main section div h2 {
-        font-size: 2rem;
-    }
-
-      main section h3 {
-        font-size: 1.7rem;
-    }
-
-    main section p {
-        font-size: 1.2rem;
-    }
-
-    .sobre h2 {
-        font-size: 2rem;
-    }
-    .sobre p em {
-        font-size: 1.2rem;
-    }
-
-    .informacao-contato p {
-        font-size: 1.2rem;
-    }
-
-
+footer p {
+    font-size: 18px;
 }
-/* dispositivos móveis pequenos médios e grande */
-@media (max-width: 800px) {
 
-    h1 {
-        padding: 2px;
-    }
-
-    img {
-        /* centralizando img no meio do container */
-        margin: 0 auto 0;
-        padding-right: 13px;
-        margin-top: 17px;
-    }
-    .header-primario {
-        /* posicionando em coluna */
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .header-primario h1 {
-        text-align: center;
-    }
-
-    nav {
-        /* posicionamento no lado esquerdo */
-        margin-left: 0;
-        padding: 10px;
-        margin: auto;
-        display: flex;
-    }
-
-    .header-secundario h2 {
-        padding: 5px;
-    }
-
-    .header-secundario p {
-        padding: 9px;
-    }
-
-    main section {
-        height: auto;
-    }
-   
-    .sessao-1 {
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-      .sessao-2 {
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-      .sessao-3 {
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-      .sessao-4 {
-        flex-direction: column;
-        gap: 2rem;
-    }
-}
