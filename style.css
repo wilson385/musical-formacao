@@ -149,8 +149,9 @@ main .sessao-NaoAprendaSozinho h2 {
 
 main .sessao-NaoAprendaSozinho p {
     text-align: center;
-    line-height: 22px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
 }
 
 main .sessao-cursos {
@@ -236,8 +237,9 @@ main .sessao-cursos ul a img{
 main .sessao-cursos p {
     text-align: center;
     padding: 10px;
-    line-height: 22px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
 }
 
 main .alunos-apresentacao {
@@ -373,6 +375,10 @@ footer {
     margin-top: 8rem;
     padding: 20px;
     text-align: center;
+}
+
+footer p {
+    font-size: 12px;
 }
 
 
