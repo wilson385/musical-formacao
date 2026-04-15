@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -156,7 +155,7 @@ main .sessao-NaoAprendaSozinho p {
 }
 
 main .sessao-cursos {
-    background: url(assets/azul3.jpg) no-repeat center center/cover;
+    background: url(assets/azul5.jpg) no-repeat center center/cover;
     height: auto;
     position: relative; /* MUITO IMPORTANTE */
     overflow: hidden;
