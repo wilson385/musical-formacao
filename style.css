@@ -71,6 +71,7 @@ body {
     justify-content: center;
     text-decoration: none;
     padding: 20px;
+    margin-top: 10px;
 }
 
 .header-primario div a button {
@@ -260,6 +261,11 @@ main .alunos-apresentacao h2 {
     margin-top: 10px;
 }
 
+main .alunos-apresentacao div {
+    display: flex;
+    flex-direction: column;
+}
+
 main .alunos-apresentacao  iframe {
     width: 100%;
     max-width: 330px;
@@ -309,6 +315,7 @@ main .venhaNosConhecer .agendar {
     text-decoration: none;
     margin-top: 6px;
     padding: 10px;
+    margin-top: 10px;
 }
 
 main .venhaNosConhecer .agendar:hover {
@@ -380,5 +387,51 @@ footer {
 footer p {
     font-size: 12px;
 }
+/* dispostivo com telas maiores */
+@media (min-width: 801px) {
 
+.header-primario div {
+    margin-top: 85px;
+}
+.header-primario div h1 {
+    font-size: 25px;     
+}
+.header-primario div .p1 {
+     font-size: 18px;
+}
+main .sessao-inicial h2 {
+    font-size: 28px;
+}
+main .sessao-inicial p {
+    font-size: 18px;
+}
+main .sessao-NaoAprendaSozinho p {
+    font-size: 18px;
+}
+main .sessao-cursos p {
+    font-size: 18px;
+}
+ 
+main .alunos-apresentacao {
+    padding: 35px;
+}
+main .alunos-apresentacao div {
+    flex-direction: row;
+    /* “Se os itens não couberem em uma linha, mande o que sobrar para a próxima linha.” */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+main .venhaNosConhecer h3 {
+    font-size: 26px;
+}
+
+main .venhaNosConhecer p {
+    font-size: 18px;
+}
+footer p {
+    font-size: 15px;
+}
+
+}
 
