@@ -33,7 +33,7 @@ body {
 
 .header-primario  .logo {
         width: 200px;
-        margin-top: -70px;
+        margin-top: -40px;
 }
 
 .header-primario div {
@@ -45,17 +45,18 @@ body {
 }
 
 .header-primario div h1 {
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;  
-    font-family: monospace; 
-     
+   font-family: 'Playfair Display', serif;
+     font-weight: 700;
 }
 
 .header-primario div .p1 {
      text-align: center;
-     font-size: 17px;
-     font-family: "Patrick Hand", cursive;
+     font-size: 15px;
+     font-family: 'Inter', sans-serif;
      line-height: 20px;
+     font-weight: 400;
 
 }
 
