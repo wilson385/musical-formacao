@@ -10,7 +10,7 @@ body {
 }
 
 .header-primario {
-    background: url('assets/azulEscuro.jpg') no-repeat center center/cover;
+    background-color: #140669;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
 }
 
 .header-primario div a {
-    background-color: #ffbb00;
+    background-color:#000428;
     border-radius: 10px;
     transition: all 0.5s;
     width: 290px;
@@ -78,13 +78,13 @@ body {
     font-size: 1.10rem;
     background: none;
     border: none;
-    color: black;
+    color: white;
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header-primario div a:hover {
-    background-color: #d9ff00;
+    background-color: #01041e;
 }
 
 main {
@@ -103,24 +103,24 @@ main .sessao-inicial h2 {
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    color: #000000;
+    color: #1F1B36;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
 }
 
 main .sessao-inicial p {
     text-align: center;
-    color: #000000;
+    color: #1F1B36;
     padding: 8px;
     line-height: 25px;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
 }
 main .sessao-inicial p .strong-1 {
-    color: #000000;
+    color: #1F1B36;
 }
 
-main .sessao-NaoAprendaSozinho video {
+/* main .sessao-NaoAprendaSozinho video {
     width: 100%;
     max-width: 700px;
     height: 400px;
@@ -128,10 +128,10 @@ main .sessao-NaoAprendaSozinho video {
       background-color: #000000;
       border: 1px solid #1b394b;
       border-radius: 14px;
-}
+} */
 
 main .sessao-NaoAprendaSozinho {
-    background: url(assets/azul5.jpg) no-repeat center center/cover;
+    background: #100454;
     height: auto;
     margin-top: 20px;
     display: flex;
@@ -143,7 +143,7 @@ main .sessao-NaoAprendaSozinho {
 
 main .sessao-NaoAprendaSozinho h2 {
     font-size: 1.8rem;
-    color: #fbff00;
+    color: #8EE441;
     text-align: center;
     padding: 10px;
     font-family: "Patrick Hand", cursive;
@@ -157,7 +157,7 @@ main .sessao-NaoAprendaSozinho p {
 }
 
 main .sessao-cursos {
-    background: url(assets/azul5.jpg) no-repeat center center/cover;
+    background-color: #100454;
     height: auto;
     position: relative; /* MUITO IMPORTANTE */
     overflow: hidden;
@@ -194,7 +194,7 @@ main .sessao-cursos h2 {
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    color: #fbff00;
+    color: #8EE441;
 }
 
 main .sessao-cursos ul {
@@ -244,7 +244,7 @@ main .sessao-cursos p {
     font-family: 'Inter', sans-serif;
 }
 
-main .alunos-apresentacao {
+/* main .alunos-apresentacao {
     background: url(assets/azul5.jpg) no-repeat center center/cover;
     height: auto;
     padding: 29px;
@@ -274,7 +274,7 @@ main .alunos-apresentacao  iframe {
     margin-top: 30px;
     border-radius: 14px;
     border: #1b394b solid 1px;
-}
+} */
 
 main .venhaNosConhecer {
     display: flex;
@@ -286,7 +286,7 @@ main .venhaNosConhecer {
 }
 
 main .venhaNosConhecer h3 {
-    color: #000000;
+    color: #1F1B36;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     text-align: center;
@@ -296,7 +296,7 @@ main .venhaNosConhecer h3 {
 
 main .venhaNosConhecer p {
     text-align: center;
-     color: #000000;
+     color: #1F1B36;
     padding: 8px;
     line-height: 25px;
     font-size: 15px;
@@ -305,7 +305,7 @@ main .venhaNosConhecer p {
 
 main .venhaNosConhecer .agendar {
     list-style: none;
-    background-color: #030000;
+    background-color: #031b4b;;
     border-radius: 10px;
     transition: all 0.5s;
     width: 290px;
@@ -320,7 +320,7 @@ main .venhaNosConhecer .agendar {
 }
 
 main .venhaNosConhecer .agendar:hover {
-    background-color: #00091a;
+    background-color: #042463;
 }
 
 main .venhaNosConhecer .agendar button {
@@ -379,7 +379,7 @@ ion-icon {
 }
 
 footer {
-    background-color: #091941;
+    background-color: #140669;
     margin-top: 8rem;
     padding: 20px;
     text-align: center;
