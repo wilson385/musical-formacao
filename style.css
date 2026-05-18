@@ -39,7 +39,7 @@ body {
 .header-primario div {
     display: flex;
     flex-direction: column;
-    margin-top: 140px;
+    margin-top: 200px;
     gap: 1rem;
     align-items: center; 
 }
