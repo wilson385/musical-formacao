@@ -32,13 +32,14 @@ body {
 }
 
 .header-primario  .logo {
-        width: 180px;
+        width: 130px;
+        margin-top: -20px;
 }
 
 .header-primario div {
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 140px;
     gap: 1rem;
     align-items: center; 
 }
