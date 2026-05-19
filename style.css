@@ -231,8 +231,8 @@ main .sessao-cursos ul a:hover {
 }
 
 main .sessao-cursos ul a img{
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 60px;
     margin-top: -10px;
 }
 
@@ -392,13 +392,13 @@ footer p {
 @media (min-width: 801px) {
 
 .header-primario div {
-    margin-top: 85px;
+    margin-top: 180px;
 }
 .header-primario div h1 {
-    font-size: 25px;     
+    font-size: 23px;     
 }
 .header-primario div .p1 {
-     font-size: 18px;
+     font-size: 16px;
 }
 main .sessao-inicial h2 {
     font-size: 28px;
