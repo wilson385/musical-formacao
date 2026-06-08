@@ -205,36 +205,64 @@ main .sessao-cursos ul {
     gap: 2rem;
     margin-top: 20px;    
 }
+
 main .sessao-cursos ul a {
-    background-color: #2f4685;
-    list-style: none;
+    background-color:  #000000;
     width: 80%;
-    height:130px;
-    padding: 22px;
+    height: 130px;
     border-radius: 10px;
-    font-size: 25px;
-    border: #01b6b6 solid 2px;
-    font-family: 'Courier New', Courier, monospace;
-    transition:  0.4s;
+    border:#1D3ECF solid 2px;
     text-decoration: none;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    z-index: 1;
+
+    position: relative;
+    overflow: hidden;
+
+    transition: 0.4s;
 }
 
+/* efeito hover */
 main .sessao-cursos ul a:hover {
-    background-color: #223569;
-    border: #01b6b6 solid 4px;
+    background-color: #010F45;
+    border: #1D3ECF solid 4px;
+    transform: scale(1.02);
 }
 
-main .sessao-cursos ul a img{
+/* imagem ocupando o card inteiro */
+main .sessao-cursos ul a img {
+    position: absolute;
+
+    width: 200%;
+    height: 200%;
+
+    object-fit: contain;
+
+    opacity: 0.30;
+
+    z-index: 0;
+}
+
+/* texto acima da imagem */
+main .sessao-cursos ul a li {
+    list-style: none;
+
+    z-index: 1;
+
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+
+    color: white;
+
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+/* main .sessao-cursos ul a img{
     width: 120px;
     height: 60px;
     margin-top: -10px;
-}
+} */
 
 main .sessao-cursos p {
     text-align: center;
@@ -391,48 +419,40 @@ footer p {
 /* dispostivo com telas maiores */
 @media (min-width: 801px) {
 
-.header-primario div {
-    margin-top: 180px;
-}
-.header-primario div h1 {
-    font-size: 23px;     
-}
-.header-primario div .p1 {
-     font-size: 16px;
-}
-main .sessao-inicial h2 {
-    font-size: 28px;
-}
-main .sessao-inicial p {
-    font-size: 18px;
-}
-main .sessao-NaoAprendaSozinho p {
-    font-size: 18px;
-}
-main .sessao-cursos p {
-    font-size: 18px;
-}
- 
-main .alunos-apresentacao {
-    padding: 35px;
-}
-main .alunos-apresentacao div {
-    flex-direction: row;
-    /* “Se os itens não couberem em uma linha, mande o que sobrar para a próxima linha.” */
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-main .venhaNosConhecer h3 {
-    font-size: 26px;
-}
+    .header-primario div {
+        margin-top: 180px;
+    }
+    .header-primario div h1 {
+        font-size: 23px;     
+    }
+    .header-primario div .p1 {
+        font-size: 16px;
+    }
+    main .sessao-inicial h2 {
+        font-size: 28px;
+    }
+    main .sessao-inicial p {
+        font-size: 18px;
+    }
+    main .sessao-NaoAprendaSozinho p {
+        font-size: 18px;
+    }
+    main .sessao-cursos p {
+        font-size: 18px;
+    }
+    main .sessao-cursos ul a {
+        width: 50%;
+        }
+    main .venhaNosConhecer h3 {
+        font-size: 26px;
+    }
 
-main .venhaNosConhecer p {
-    font-size: 18px;
-}
-footer p {
-    font-size: 15px;
-}
+    main .venhaNosConhecer p {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 15px;
+    }
 
 }
 
