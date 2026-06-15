@@ -10,7 +10,7 @@ body {
 }
 
 .header-primario {
-    background-color: #140669;
+    background: #140669 url(assets/fundo_azul.png) top center no-repeat;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -20,15 +20,15 @@ body {
     padding: 40px;
 }
 
-.guitarra2{
+.guitarra_22{
     position: absolute;
-    top: 16%;
-    left: 51.5%;
+    top: 45%;
+    left: 51%;
     transform: translate(-50%, -50%); /* centraliza */
     width: 100%; /* ajusta tamanho */
-    opacity: 0.40; /* quase invisível */    
+    opacity: 0.10; /* quase invisível */    
     z-index: 0; /* fica atrás de tudo */
-    height: 65%;
+    height: 70%;
 }
 
 .header-primario  .logo {
@@ -39,7 +39,7 @@ body {
 .header-primario div {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 20px;
     gap: 1rem;
     align-items: center; 
 }
@@ -47,21 +47,18 @@ body {
 .header-primario div h1 {
     font-size: 20px;
     text-align: center;  
-   font-family: 'Playfair Display', serif;
-     font-weight: 700;
+   font-family: lora, sans-serif;
 }
 
 .header-primario div .p1 {
      text-align: center;
      font-size: 15px;
-     font-family: 'Inter', sans-serif;
+     font-family: lora, sans-serif;
      line-height: 20px;
-     font-weight: 400;
-
 }
 
 .header-primario div a {
-    background-color:#000428;
+    background-color:#11BB19;
     border-radius: 10px;
     transition: all 0.5s;
     width: 290px;
@@ -84,7 +81,7 @@ body {
 }
 
 .header-primario div a:hover {
-    background-color: #01041e;
+    background-color: #44AB45;
 }
 
 main {
@@ -119,16 +116,6 @@ main .sessao-inicial p {
 main .sessao-inicial p .strong-1 {
     color: #143246;
 }
-
-/* main .sessao-NaoAprendaSozinho video {
-    width: 100%;
-    max-width: 700px;
-    height: 400px;
-     margin-top: 30px;
-      background-color: #000000;
-      border: 1px solid #1b394b;
-      border-radius: 14px;
-} */
 
 main .sessao-NaoAprendaSozinho {
     background: #100454;
@@ -234,75 +221,22 @@ main .sessao-cursos ul a:hover {
 /* imagem ocupando o card inteiro */
 main .sessao-cursos ul a img {
     position: absolute;
-
     width: 200%;
     height: 200%;
-
     object-fit: contain;
-
     opacity: 0.30;
-
     z-index: 0;
 }
 
 /* texto acima da imagem */
 main .sessao-cursos ul a li {
     list-style: none;
-
     z-index: 1;
-
     font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
-
     color: white;
-
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
-/* main .sessao-cursos ul a img{
-    width: 120px;
-    height: 60px;
-    margin-top: -10px;
-} */
-
-main .sessao-cursos p {
-    text-align: center;
-    padding: 10px;
-    line-height: 25px;
-    font-size: 15px;
-    font-family: 'Inter', sans-serif;
-}
-
-/* main .alunos-apresentacao {
-    background: url(assets/azul5.jpg) no-repeat center center/cover;
-    height: auto;
-    padding: 29px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main .alunos-apresentacao h2 {
-    font-size: 2.2rem;
-    text-align: center;
-   color: #fbff00;
-    font-family: "Patrick Hand", cursive;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-main .alunos-apresentacao div {
-    display: flex;
-    flex-direction: column;
-}
-
-main .alunos-apresentacao  iframe {
-    width: 100%;
-    max-width: 330px;
-    height: 282px;
-    margin-top: 30px;
-    border-radius: 14px;
-    border: #1b394b solid 1px;
-} */
 
 main .venhaNosConhecer {
     display: flex;
@@ -357,7 +291,7 @@ main .venhaNosConhecer .agendar button {
     color: #E0E0E0;
     font-size: 1.10rem;
     font-weight: bolder;
-    font-family: monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
 
@@ -419,8 +353,12 @@ footer p {
 /* dispostivo com telas maiores */
 @media (min-width: 801px) {
 
+    .header-primario  .logo {
+        width: 180px;
+}
+
     .header-primario div {
-        margin-top: 180px;
+        margin-top: 40px;
     }
     .header-primario div h1 {
         font-size: 23px;     
