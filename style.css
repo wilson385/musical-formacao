@@ -240,6 +240,7 @@ main .sessao-cursos ul a li {
 
 main .sessao-cursos p {
     text-align: center;
+    line-height: 20px;
 }
 
 main .venhaNosConhecer {
