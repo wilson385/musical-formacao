@@ -20,7 +20,7 @@ body {
     padding: 40px;
 }
 
-.guitarra_22{
+.violao_preto{
     position: absolute;
     top: 45%;
     left: 51%;
@@ -28,7 +28,7 @@ body {
     width: 100%; /* ajusta tamanho */
     opacity: 0.10; /* quase invisível */    
     z-index: 0; /* fica atrás de tudo */
-    height: 70%;
+    height: 80%;
 }
 
 .header-primario  .logo {
@@ -236,6 +236,10 @@ main .sessao-cursos ul a li {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+main .sessao-cursos p {
+    text-align: center;
 }
 
 main .venhaNosConhecer {
