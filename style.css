@@ -42,6 +42,7 @@ body {
     margin-top: 20px;
     gap: 1rem;
     align-items: center; 
+     z-index: 1;
 }
 
 .header-primario div h1 {
