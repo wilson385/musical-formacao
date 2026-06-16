@@ -10,7 +10,7 @@ body {
 }
 
 .header-primario {
-    background: #140669 url(assets/fundo_azul.png) top center no-repeat;
+    background: /* #140669 */ url(assets/fundo_azul.png);
     height: auto;
     display: flex;
     flex-direction: column;
