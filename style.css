@@ -10,8 +10,8 @@ body {
 }
 
 .header-primario {
-    background: /* #140669 */ url(assets/fundo_azul.png);
-    height: auto;
+    background: #140669 url(assets/fundo_azul.png);
+    height: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,7 +149,7 @@ main .sessao-cursos {
     height: auto;
     position: relative; /* MUITO IMPORTANTE */
     overflow: hidden;
-    padding: 30px;
+    padding: 50px;
 }
 
 main .sessao-cursos .baterista {
