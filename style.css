@@ -11,24 +11,31 @@ body {
 
 .header-primario {
     background: #140669 url(assets/fundo_azul.png);
-    height: 340px;
+    height: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative; /* MUITO IMPORTANTE */
+    /* Por que sempre usamos Relative no pai?
+    Porque queremos que o elemento absoluto fique preso ao seu contêiner. */
+    position: relative;
     overflow: hidden;
     padding: 40px;
 }
 
-.violao_preto{
+.instrumentos_fundo{
     position: absolute;
-    top: 45%;
-    left: 51%;
-    transform: translate(-50%, -50%); /* centraliza */
-    width: 100%; /* ajusta tamanho */
-    opacity: 0.10; /* quase invisível */    
-    z-index: 0; /* fica atrás de tudo */
-    height: 80%;
+    top: 50%;  /* leva o topo da imagem para o meio do container. */
+    left: 50%; /* leva a esquerda da imagem para o meio. */
+    /* 50% da largura dela para a esquerda (-50%)
+    50% da altura dela para cima (-50%) */
+    transform: translate(-50%, -50%); /* corrige o posicionamento, centralizando a imagem exatamente. */
+    opacity: 0.19; /* quase invisível */    
+    z-index: 0; /* fica atrás de tudo */   
+}
+
+/* escondendo o titulo*/
+.header-primario h2 {
+    text-indent: -99999px;
 }
 
 .header-primario  .logo {
@@ -70,17 +77,11 @@ body {
     text-decoration: none;
     padding: 20px;
     margin-top: 10px;
-}
-
-.header-primario div a button {
     font-size: 1.10rem;
-    background: none;
-    border: none;
     color: white;
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .header-primario div a:hover {
     background-color: #44AB45;
 }
@@ -290,17 +291,15 @@ main .venhaNosConhecer .agendar {
 main .venhaNosConhecer .agendar:hover {
     background-color: #042463;
 }
-
-main .venhaNosConhecer .agendar button {
+main .venhaNosConhecer a {
     border: none;
     background-color: transparent;
     color: #E0E0E0;
     font-size: 1.10rem;
-    font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
+    
 }
-
 main .mapa {
     display: flex;
     justify-content: center;
@@ -347,7 +346,7 @@ ion-icon {
 }
 
 footer {
-    background-color: #140669;
+    background-color: #0e0642;
     margin-top: 8rem;
     padding: 20px;
     text-align: center;
@@ -359,44 +358,59 @@ footer p {
 /* dispostivo com telas maiores */
 @media (min-width: 801px) {
 
+    p {
+        font-size: 20px !important;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header-primario {
+        height: 430px;
+    }
     .header-primario  .logo {
-        width: 180px;
+        width: 300px;
 }
 
     .header-primario div {
         margin-top: 40px;
     }
     .header-primario div h1 {
-        font-size: 23px;     
+        font-size: 24px;     
     }
     .header-primario div .p1 {
-        font-size: 16px;
+        font-size: 18px !important;
+        line-height: 25px;
+    }
+
+    .header-primario div a {
+        width: 320px;
+        height: 50px;
     }
     main .sessao-inicial h2 {
-        font-size: 28px;
+        font-size: 32px;
     }
-    main .sessao-inicial p {
-        font-size: 18px;
-    }
-    main .sessao-NaoAprendaSozinho p {
-        font-size: 18px;
-    }
-    main .sessao-cursos p {
-        font-size: 18px;
-    }
+
+    
     main .sessao-cursos ul a {
         width: 50%;
+        }
+
+        main .sessao-cursos p {
+            line-height: 28px;
         }
     main .venhaNosConhecer h3 {
         font-size: 26px;
     }
 
-    main .venhaNosConhecer p {
-        font-size: 18px;
+    main .venhaNosConhecer .agendar {
+        width: 320px;
+        height: 50px;
     }
+
     footer p {
-        font-size: 15px;
+        font-size: 16px !important;
     }
+
 
 }
 
