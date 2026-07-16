@@ -11,7 +11,7 @@ body {
 
 .header-primario {
     background: #140669 url(assets/fundo_azul.png);
-    height: 420px;
+    height: 415px;
     display: flex;
     flex-direction: column;
     align-items: center;
