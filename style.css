@@ -10,10 +10,10 @@ body {
 }
 
 h1, h2, h3 {
-    letter-spacing: 2.9px;
+    letter-spacing: 1px;
 }
 p {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .header-primario {
