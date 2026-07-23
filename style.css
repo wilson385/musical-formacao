@@ -9,6 +9,13 @@ body {
     background-color: white;
 }
 
+h1, h2, h3 {
+    letter-spacing: 2.9px;
+}
+p {
+    letter-spacing: 2px;
+}
+
 .header-primario {
     background: #140669 url(assets/fundo_azul.png);
     height: 415px;
